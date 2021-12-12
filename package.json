@@ -1,0 +1,28 @@
+{
+  "name": "cucumber-test",
+  "version": "1.0.0",
+  "description": "To test using cucumber js and selenium webdriver",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "keywords": [
+    "cucumber"
+  ],
+  "author": "Open source",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "~4.1.1",
+    "chai-as-promised": "~5.3.0",
+    "cucumber": "^6.0.5",
+    "cucumber-html-reporter": "^5.0.2",
+    "selenium-cucumber-js": "^1.4.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonahtn/xendit-qa-assessment.git"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0-alpha.5"
+  }
+}
